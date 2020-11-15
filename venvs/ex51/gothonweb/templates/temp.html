@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Image Upload form </h1>
+
+<form action="/" method="POST">
+	A Greeting: <input type='text' name="greet">
+	<br/>
+	Your name: <input type="text" name="name">
+	<br/>
+	An Image: <input type='image' name="image">
+	<br/>
+	<input type="submit">
+</form>
+{% endblock %}

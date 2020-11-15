@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title> Gothons of Planet Percal #25</title>
+	</head>
+<body>
+{% if greeting %}
+	I just wanted to say
+	<em style="color: green; font-size: 2em;">{{ greeting }}</em>.
+	<p>
+		This is a funny image {{ image }}
+	</p>
+	<p>
+		<a href = "http://localhost:5000/hello">Link back to the form</a>
+	</p>
+{% else %}
+	<em> Hello</em>, world!
+{% endif %}
+
+</body>
+</html>
